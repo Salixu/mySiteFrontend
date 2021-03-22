@@ -1,0 +1,26 @@
+.navigation-menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  position: sticky;
+  padding: 0;
+}
+
+.item {
+  margin: 30px;
+  list-style: none;
+}
+.mat-button-bg-color{
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #000000;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
+.item > a{
+  color: black;
+}
