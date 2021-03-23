@@ -15,7 +15,16 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: none #ccc;
 }
+
+.seperator{
+  box-shadow: 0 -4px 6px -5px rgb(0 0 0 / 60%);
+  -webkit-box-shadow:  0 -4px 6px -5px rgb(0 0 0 / 60%);
+  -moz-box-shadow:  0 -4px 6px -5px rgb(0 0 0 / 60%);
+}
+
+
 
 a:hover{
   text-decoration: none;
