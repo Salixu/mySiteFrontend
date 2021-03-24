@@ -34,3 +34,14 @@
 .item > a{
   color: black;
 }
+
+@media (max-width: 500px) {
+  .container-custom-top{
+    height: 5rem;
+    bottom: 0px;
+    z-index: 100;
+  }
+  .item{
+    margin: 10px;
+  }
+}
