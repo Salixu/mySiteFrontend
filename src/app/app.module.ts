@@ -8,6 +8,9 @@ import { NavigatonComponent } from './navigaton/navigaton.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeroComponent } from './hero/hero.component';
+import {AngularTypewriterEffectModule} from 'angular-typewriter-effect';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     NavigatonComponent,
     ProjectsComponent,
     AboutMeComponent,
-    FooterComponent
+    FooterComponent,
+    HeroComponent
   ],
   exports: [
     MaterialModule
@@ -23,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AngularTypewriterEffectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

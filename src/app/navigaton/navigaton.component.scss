@@ -4,8 +4,18 @@
   flex-wrap: wrap;
   justify-content: center;
   font-size: 1.5rem;
-  position: sticky;
   padding: 0;
+}
+
+
+.container-custom-top{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 2rem;
+  position: fixed;
 }
 
 .item {
@@ -13,9 +23,9 @@
   list-style: none;
 }
 .mat-button-bg-color{
-  background-color: transparent;
+  background-color: #275a56;
   font-size: 1.5rem;
-  color: #000000;
+  color: #fff;
   font-family: 'Nunito', sans-serif;
 
 }

@@ -1,0 +1,22 @@
+.row{
+  text-align: center;
+}
+
+.img-fluid{
+  height: 500px;
+  padding: 20px;
+}
+
+
+
+.about-me-text{
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .img-fluid{
+    height: 400px;
+  }
+}

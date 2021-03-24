@@ -1,11 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+
+
+@font-face {
+  font-family: YungJakesYe;
+  src: url(assets/fonts/YungJakesNewHandwriting-Regular.ttf);
+}
+
+
 html, body { height: 100%; }
+$accent-color: #00303f;
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
-  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  background-image: linear-gradient(to right, #e8ffff 0%, #a6f6f1 100%);
 }
 
 .container-custom{
@@ -15,6 +25,8 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 1rem;
+
   border: none #ccc;
 }
 
@@ -23,6 +35,18 @@ body {
   -webkit-box-shadow:  0 -4px 6px -5px rgb(0 0 0 / 60%);
   -moz-box-shadow:  0 -4px 6px -5px rgb(0 0 0 / 60%);
 }
+.center-text{
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
