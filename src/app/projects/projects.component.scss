@@ -3,6 +3,40 @@
   width: 64px;
   padding: 10px;
 }
+.container-custom{
+  padding-top: 2rem;
+}
+
+.icon-bg{
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-info p{
+  top: -150px;
+  left: -88px;
+  width: 150px;
+  height: 150px;
+  z-index: 100;
+  opacity:0;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+  visibility: hidden;
+  position: relative;
+}
+.icon-info:hover p{
+  z-index: 100;
+  visibility:visible;
+  opacity:1;
+  background: rgba(0, 0, 0, 0.5);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.stack-icons{
+  display: flex;
+  flex-flow: wrap;
+}
 
 ul{
   list-style-type: none;

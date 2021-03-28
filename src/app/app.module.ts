@@ -10,6 +10,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 import {AngularTypewriterEffectModule} from 'angular-typewriter-effect';
+import { LoaderComponent } from './loader/loader.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {AngularTypewriterEffectModule} from 'angular-typewriter-effect';
     ProjectsComponent,
     AboutMeComponent,
     FooterComponent,
-    HeroComponent
+    HeroComponent,
+    LoaderComponent
   ],
   exports: [
     MaterialModule

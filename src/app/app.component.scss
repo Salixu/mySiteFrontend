@@ -1,2 +1,131 @@
 $accent-color: #275a56;
 $min-accent-color: #41aea9;
+$ye-color: #08F42A;
+.animation-wrap{
+  width: 100%;
+  height: 100%;
+}
+
+.blob0{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(255, 87, 34, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+.blob1{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  animation-delay: 2s;
+}
+
+.blob2{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  animation-delay: 4s;
+}
+
+.blob3{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  animation-delay: 6s;
+}
+
+.blob4{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  animation-delay: 8s;
+}
+
+.blob5{
+  background: $ye-color;
+  border-radius: 50%;
+  margin: 25px;
+  height: 45px;
+  width: 45px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  animation-delay: 10s;
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 $accent-color;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 600px) {
+
+  .blob0{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+  .blob1{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+  .blob2{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+  .blob3{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+  .blob4{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+  .blob5{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+  }
+
+}
