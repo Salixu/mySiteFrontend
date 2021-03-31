@@ -14,6 +14,14 @@
   background: rgb(55 251 5 / 29%);
 }
 
+.margin-items{
+  margin: 20px;
+}
+
+.project-header{
+  margin-bottom: 2rem;
+}
+
 .status-ongoing{
   background: rgb(255 212 0 / 29%)
 }
@@ -40,6 +48,7 @@
 .stack-icons{
   display: flex;
   flex-flow: wrap;
+  justify-content: center
 }
 
 ul{

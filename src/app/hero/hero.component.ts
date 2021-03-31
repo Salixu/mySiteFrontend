@@ -6,7 +6,7 @@ import {AfterViewInit, Component, OnInit,} from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit, AfterViewInit {
-  list = ['Full Stack Web Developer', 'Full Stack Web Developer, prawie ;)'];
+  list = ['Full Stack Web Developer', 'Prawie Full Stack Web Developer ;)'];
 
   constructor() { }
 
