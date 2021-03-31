@@ -23,7 +23,7 @@ export class AppComponent implements AfterViewInit, OnInit{
   changeState(): void{
     setTimeout( () => {
       this.isReady = true;
-    }, 4000);
+    }, 2000);
   }
 }
 

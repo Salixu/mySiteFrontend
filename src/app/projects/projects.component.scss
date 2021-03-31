@@ -1,8 +1,4 @@
-.icon{
-  height: 64px;
-  width: 64px;
-  padding: 10px;
-}
+
 .container-custom{
   padding-top: 2rem;
 }
@@ -12,6 +8,14 @@
   width: 64px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.status-finished{
+  background: rgb(55 251 5 / 29%);
+}
+
+.status-ongoing{
+  background: rgb(255 212 0 / 29%)
 }
 
 .icon-info p{

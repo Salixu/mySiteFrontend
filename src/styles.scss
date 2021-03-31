@@ -10,7 +10,10 @@
 }
 
 
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
 $accent-color: #00303f;
 body {
   margin: 0;
@@ -26,6 +29,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 
   border: none #ccc;
 }
@@ -73,6 +77,12 @@ a:hover{
 
 a{
   color: white!important;
+}
+
+.icon{
+  height: 64px;
+  width: 64px;
+  padding: 10px;
 }
 
 /*
