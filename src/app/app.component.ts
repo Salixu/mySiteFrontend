@@ -1,4 +1,5 @@
 import {AfterViewChecked, AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ export class AppComponent implements AfterViewInit, OnInit{
   title = 'Bartosz Glanowski';
 
 
-  constructor() {
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(this.title);
   }
   ngOnInit(): void {
     this.isReady = false;
