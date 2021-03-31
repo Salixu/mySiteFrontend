@@ -7,7 +7,7 @@ import {AfterViewChecked, AfterViewInit, Component, ElementRef, OnInit, ViewChil
 })
 export class AppComponent implements AfterViewInit, OnInit{
   isReady: boolean;
-  title = 'mySiteFrontend';
+  title = 'Bartosz Glanowski';
 
 
   constructor() {

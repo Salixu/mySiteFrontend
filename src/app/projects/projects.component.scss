@@ -15,7 +15,7 @@
 }
 
 .margin-items{
-  margin: 20px;
+  margin: 25px 25px 0px 0px;
 }
 
 .project-header{
@@ -24,6 +24,10 @@
 
 .status-ongoing{
   background: rgb(255 212 0 / 29%)
+}
+
+.align-to-right{
+  margin-top: 6px;
 }
 
 .icon-info p{
@@ -53,4 +57,9 @@
 
 ul{
   list-style-type: none;
+}
+
+@media (max-width: 1600px) {
+  .align-to-right{
+    margin-top: -4px;  }
 }
