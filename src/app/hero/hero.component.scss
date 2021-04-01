@@ -16,7 +16,17 @@
   height: 70vh;
 }
 
+.hero{
+  padding-top: 150px;
+}
+
 .quote{
   font-family: YungJakesYe;
   color: #08F42A;
+}
+
+@media (max-width: 600px) {
+  .hero{
+    padding-top: 50px;
+  }
 }
